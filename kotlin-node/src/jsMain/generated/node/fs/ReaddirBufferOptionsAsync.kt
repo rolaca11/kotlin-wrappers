@@ -2,8 +2,10 @@
 
 package node.fs
 
+import js.promise.Promise
+
 
 sealed external interface ReaddirBufferAsyncOptions {
-    var encoding: String /* 'buffer' */
-    var withFileTypes: Boolean?
+var encoding: String /* 'buffer' */
+var withFileTypes: Boolean?
 }

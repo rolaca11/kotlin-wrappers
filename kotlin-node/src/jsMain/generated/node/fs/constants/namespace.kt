@@ -6,6 +6,7 @@
 package node.fs.constants
 
 
+
 // File Access Constants
 /** Constant for fs.access(). File is visible to the calling process. */
 external val F_OK: Double
@@ -24,15 +25,15 @@ external val X_OK: Double
 external val COPYFILE_EXCL: Double
 
 /**
- * Constant for fs.copyFile. copy operation will attempt to create a copy-on-write reflink.
- * If the underlying platform does not support copy-on-write, then a fallback copy mechanism is used.
- */
+         * Constant for fs.copyFile. copy operation will attempt to create a copy-on-write reflink.
+         * If the underlying platform does not support copy-on-write, then a fallback copy mechanism is used.
+         */
 external val COPYFILE_FICLONE: Double
 
 /**
- * Constant for fs.copyFile. Copy operation will attempt to create a copy-on-write reflink.
- * If the underlying platform does not support copy-on-write, then the operation will fail with an error.
- */
+         * Constant for fs.copyFile. Copy operation will attempt to create a copy-on-write reflink.
+         * If the underlying platform does not support copy-on-write, then the operation will fail with an error.
+         */
 external val COPYFILE_FICLONE_FORCE: Double
 
 // File Open Constants
@@ -52,10 +53,10 @@ external val O_CREAT: Double
 external val O_EXCL: Double
 
 /**
- * Constant for fs.open(). Flag indicating that if path identifies a terminal device,
- * opening the path shall not cause that terminal to become the controlling terminal for the process
- * (if the process does not already have one).
- */
+         * Constant for fs.open(). Flag indicating that if path identifies a terminal device,
+         * opening the path shall not cause that terminal to become the controlling terminal for the process
+         * (if the process does not already have one).
+         */
 external val O_NOCTTY: Double
 
 /** Constant for fs.open(). Flag indicating that if the file exists and is a regular file, and the file is opened successfully for write access, its length shall be truncated to zero. */
@@ -68,11 +69,11 @@ external val O_APPEND: Double
 external val O_DIRECTORY: Double
 
 /**
- * constant for fs.open().
- * Flag indicating reading accesses to the file system will no longer result in
- * an update to the atime information associated with the file.
- * This flag is available on Linux operating systems only.
- */
+         * constant for fs.open().
+         * Flag indicating reading accesses to the file system will no longer result in
+         * an update to the atime information associated with the file.
+         * This flag is available on Linux operating systems only.
+         */
 external val O_NOATIME: Double
 
 /** Constant for fs.open(). Flag indicating that the open should fail if the path is a symbolic link. */
@@ -156,8 +157,8 @@ external val S_IWOTH: Double
 external val S_IXOTH: Double
 
 /**
- * When set, a memory file mapping is used to access the file. This flag
- * is available on Windows operating systems only. On other operating systems,
- * this flag is ignored.
- */
+         * When set, a memory file mapping is used to access the file. This flag
+         * is available on Windows operating systems only. On other operating systems,
+         * this flag is ignored.
+         */
 external val UV_FS_O_FILEMAP: Double

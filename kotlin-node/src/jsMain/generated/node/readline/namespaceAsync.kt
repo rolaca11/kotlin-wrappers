@@ -4,6 +4,8 @@
 
 package node.readline
 
+import js.promise.Promise
+
 /* import { Interface as _Interface, ReadLineOptions, Completer, AsyncCompleter, Direction } from 'node:readline'; */
 
 /* import { Abortable } from 'node:events'; */

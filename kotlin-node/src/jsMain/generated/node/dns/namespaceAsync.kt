@@ -4,6 +4,8 @@
 
 package node.dns
 
+import js.promise.Promise
+
 /* import { LookupAddress, LookupOneOptions, LookupAllOptions, LookupOptions, AnyRecord, CaaRecord, MxRecord, NaptrRecord, SoaRecord, SrvRecord, ResolveWithTtlOptions, RecordWithTtl, ResolveOptions, ResolverOptions, } from 'node:dns'; */
 
 /* export * from 'dns/promises'; */

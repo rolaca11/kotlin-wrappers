@@ -2,8 +2,10 @@
 
 package node.fs
 
+import js.promise.Promise
+
 
 sealed external interface FileHandleReadFileBufferAsyncOptions {
-    var encoding: Nothing?
-    var flag: OpenMode?
+var encoding: Nothing?
+var flag: OpenMode?
 }

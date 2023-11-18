@@ -2,8 +2,10 @@
 
 package node.fs
 
+import js.promise.Promise
+
 
 sealed external interface MkdirRecursiveAsyncOptions : MakeDirectoryOptions {
-    @JsName("recursive")
-    var requiredRecursive: Boolean
+@JsName("recursive")
+var requiredRecursive: Boolean
 }

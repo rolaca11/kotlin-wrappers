@@ -6,5 +6,5 @@ import node.events.Abortable
 
 
 sealed external interface ReadFileOptions : ObjectEncodingOptions, Abortable {
-    var flag: String?
+var flag: String?
 }

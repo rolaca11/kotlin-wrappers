@@ -5,6 +5,7 @@
 package node.dns
 
 
+
 /* import * as dnsPromises from 'node:dns/promises'; */
 
 // Supported getaddrinfo flags.
@@ -13,9 +14,9 @@ external val ADDRCONFIG: Double
 external val V4MAPPED: Double
 
 /**
- * If `dns.V4MAPPED` is specified, return resolved IPv6 addresses as
- * well as IPv4 mapped IPv6 addresses.
- */
+     * If `dns.V4MAPPED` is specified, return resolved IPv6 addresses as
+     * well as IPv4 mapped IPv6 addresses.
+     */
 external val ALL: Double
 
 // Error codes

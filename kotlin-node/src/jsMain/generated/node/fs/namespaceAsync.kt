@@ -4,6 +4,8 @@
 
 package node.fs
 
+import js.promise.Promise
+
 /* import { Abortable } from 'node:events'; */
 
 /* import { Stream } from 'node:stream'; */

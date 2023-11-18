@@ -2,9 +2,10 @@
 
 package node.fs
 
+import js.promise.Promise
 import node.events.Abortable
 
 
 sealed external interface ReadFileAsyncOptions : ObjectEncodingOptions, Abortable {
-    var flag: OpenMode?
+var flag: OpenMode?
 }

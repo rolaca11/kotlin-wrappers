@@ -2,10 +2,11 @@
 
 package node.fs
 
+import js.promise.Promise
 import js.typedarrays.Uint8Array
 
 
 sealed external interface FileHandleWriteResultPayload<TBuffer : Uint8Array> {
-    var bytesWritten: Double
-    var buffer: TBuffer
+var bytesWritten: Double
+var buffer: TBuffer
 }

@@ -9,12 +9,14 @@ suspend fun stat(path: PathLike, opts: StatSimpleOpts = undefined.unsafeCast<Not
     statAsync(
         path, opts
     ).await()
+                    
 
 
 suspend fun stat(path: PathLike, opts: StatBigIntOpts): BigIntStats =
     statAsync(
         path, opts
     ).await()
+                    
 
 
 suspend fun stat(path: PathLike, opts: StatOptions = undefined.unsafeCast<Nothing>()): Any /* Stats | BigIntStats */ =

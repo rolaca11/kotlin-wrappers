@@ -2,8 +2,10 @@
 
 package node.fs
 
+import js.promise.Promise
+
 
 sealed external interface LstatBigIntOpts : StatOptions {
-    @JsName("bigint")
-    var requiredBigInt: Boolean
+@JsName("bigint")
+var requiredBigInt: Boolean
 }

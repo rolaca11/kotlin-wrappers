@@ -10,42 +10,49 @@ suspend fun appendFile(path: PathLike, data: String, options: (AppendFileAsyncOp
     appendFileAsync(
         path, data, options
     ).await()
+                    
 
 
 suspend fun appendFile(path: PathLike, data: String, options: node.buffer.BufferEncoding? = undefined.unsafeCast<Nothing>()): Unit =
     appendFileAsync(
         path, data, options
     ).await()
+                    
 
 
 suspend fun appendFile(path: PathLike, data: Uint8Array, options: (AppendFileAsyncOptions)? = undefined.unsafeCast<Nothing>()): Unit =
     appendFileAsync(
         path, data, options
     ).await()
+                    
 
 
 suspend fun appendFile(path: PathLike, data: Uint8Array, options: node.buffer.BufferEncoding? = undefined.unsafeCast<Nothing>()): Unit =
     appendFileAsync(
         path, data, options
     ).await()
+                    
 
 
 suspend fun appendFile(path: FileHandle, data: String, options: (AppendFileAsyncOptions)? = undefined.unsafeCast<Nothing>()): Unit =
     appendFileAsync(
         path, data, options
     ).await()
+                    
 
 
 suspend fun appendFile(path: FileHandle, data: String, options: node.buffer.BufferEncoding? = undefined.unsafeCast<Nothing>()): Unit =
     appendFileAsync(
         path, data, options
     ).await()
+                    
 
 
 suspend fun appendFile(path: FileHandle, data: Uint8Array, options: (AppendFileAsyncOptions)? = undefined.unsafeCast<Nothing>()): Unit =
     appendFileAsync(
         path, data, options
     ).await()
+                    
 
 
 suspend fun appendFile(path: FileHandle, data: Uint8Array, options: node.buffer.BufferEncoding? = undefined.unsafeCast<Nothing>()): Unit =

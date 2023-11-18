@@ -3,7 +3,9 @@
 package node.fs
 
 
+
+
 sealed external interface StatBigIntOptions : StatOptions {
-    @JsName("bigint")
-    var requiredBigInt: Boolean
+@JsName("bigint")
+var requiredBigInt: Boolean
 }

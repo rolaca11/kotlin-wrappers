@@ -6,6 +6,6 @@ import node.events.Abortable
 
 
 sealed external interface ReadFileBufferOptions : Abortable {
-    var encoding: Nothing?
-    var flag: String?
+var encoding: Nothing?
+var flag: String?
 }

@@ -3,6 +3,8 @@
 package node.fs
 
 
+
+
 sealed external interface ReadFileSyncOptions : ObjectEncodingOptions {
-    var flag: String?
+var flag: String?
 }

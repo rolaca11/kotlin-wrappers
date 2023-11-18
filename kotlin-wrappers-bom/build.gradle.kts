@@ -13,6 +13,7 @@ dependencies {
         api(project(":kotlin-csstype"))
         api(project(":kotlin-electron"))
         api(project(":kotlin-emotion"))
+        api(project(":kotlin-express"))
         api(project(":kotlin-extensions"))
         api(project(":kotlin-js"))
         api(project(":kotlin-mui-material"))

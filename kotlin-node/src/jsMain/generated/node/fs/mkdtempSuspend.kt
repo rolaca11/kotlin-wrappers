@@ -9,12 +9,14 @@ suspend fun mkdtemp(prefix: String, options: ObjectEncodingOptions? = undefined.
     mkdtempAsync(
         prefix, options
     ).await()
+                    
 
 
 suspend fun mkdtemp(prefix: String, options: node.buffer.BufferEncoding? = undefined.unsafeCast<Nothing>()): String =
     mkdtempAsync(
         prefix, options
     ).await()
+                    
 
 
 suspend fun mkdtemp(prefix: String, options: BufferEncodingOption): node.buffer.Buffer =

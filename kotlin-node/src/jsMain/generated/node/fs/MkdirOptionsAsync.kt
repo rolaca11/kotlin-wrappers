@@ -2,7 +2,9 @@
 
 package node.fs
 
+import js.promise.Promise
+
 
 sealed external interface MkdirAsyncOptions : MakeDirectoryOptions {
-    override var recursive: Boolean?
+override var recursive: Boolean?
 }

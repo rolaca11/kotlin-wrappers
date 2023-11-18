@@ -5,4 +5,6 @@ package node.childProcess
 import node.fs.ObjectEncodingOptions
 
 
-sealed external interface ExecFileObjectEncodingOptions : ObjectEncodingOptions, ExecFileOptions
+sealed external interface ExecFileObjectEncodingOptions : ObjectEncodingOptions, ExecFileOptions {
+
+}

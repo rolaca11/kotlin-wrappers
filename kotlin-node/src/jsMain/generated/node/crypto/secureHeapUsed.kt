@@ -5,7 +5,8 @@
 package node.crypto
 
 
+
 /**
- * @since v15.6.0
- */
+     * @since v15.6.0
+     */
 external fun secureHeapUsed(): SecureHeapUsage

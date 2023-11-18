@@ -2,7 +2,9 @@
 
 package node.readline
 
+import js.promise.Promise
+
 
 sealed external interface ReadlineOptions {
-    var autoCommit: Boolean?
+var autoCommit: Boolean?
 }

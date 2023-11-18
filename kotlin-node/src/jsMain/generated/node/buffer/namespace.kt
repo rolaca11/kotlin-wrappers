@@ -5,6 +5,7 @@
 package node.buffer
 
 
+
 /* import { BinaryLike } from 'node:crypto'; */
 
 /* import { ReadableStream as WebReadableStream } from 'node:stream/web'; */
@@ -16,6 +17,7 @@ external val kMaxLength: Double
 external val kStringMaxLength: Double
 
 external val constants: BufferConstants
+
 
 
 /* export { Buffer }; */

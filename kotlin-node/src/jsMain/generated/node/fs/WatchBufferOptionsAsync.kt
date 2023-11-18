@@ -2,8 +2,10 @@
 
 package node.fs
 
+import js.promise.Promise
+
 
 sealed external interface WatchBufferAsyncOptions : WatchOptions {
-    @JsName("encoding")
-    var requiredEncoding: String /* 'buffer' */
+@JsName("encoding")
+var requiredEncoding: String /* 'buffer' */
 }

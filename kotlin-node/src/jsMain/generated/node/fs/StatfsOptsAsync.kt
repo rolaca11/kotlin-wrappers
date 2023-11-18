@@ -2,7 +2,9 @@
 
 package node.fs
 
+import js.promise.Promise
+
 
 sealed external interface StatfsOpts : StatFsOptions {
-    override var bigint: Boolean?
+override var bigint: Boolean?
 }

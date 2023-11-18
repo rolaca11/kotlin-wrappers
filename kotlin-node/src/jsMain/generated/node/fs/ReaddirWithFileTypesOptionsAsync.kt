@@ -2,7 +2,9 @@
 
 package node.fs
 
+import js.promise.Promise
+
 
 sealed external interface ReaddirWithFileTypesAsyncOptions : ObjectEncodingOptions {
-    var withFileTypes: Boolean
+var withFileTypes: Boolean
 }

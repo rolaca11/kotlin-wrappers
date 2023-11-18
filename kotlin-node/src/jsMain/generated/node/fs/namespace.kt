@@ -5,6 +5,7 @@
 package node.fs
 
 
+
 /* import * as stream from 'node:stream'; */
 
 /* import { Abortable, EventEmitter } from 'node:events'; */
@@ -16,13 +17,13 @@ package node.fs
 /* export { promises }; */
 
 /**
- * Synchronous stat(2) - Get file status.
- * @param path A path to a file. If a URL is provided, it must use the `file:` protocol.
- */
+     * Synchronous stat(2) - Get file status.
+     * @param path A path to a file. If a URL is provided, it must use the `file:` protocol.
+     */
 external val statSync: StatSyncFn
 
 /**
- * Synchronous lstat(2) - Get file status. Does not dereference symbolic links.
- * @param path A path to a file. If a URL is provided, it must use the `file:` protocol.
- */
+     * Synchronous lstat(2) - Get file status. Does not dereference symbolic links.
+     * @param path A path to a file. If a URL is provided, it must use the `file:` protocol.
+     */
 external val lstatSync: StatSyncFn

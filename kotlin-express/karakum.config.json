@@ -1,0 +1,36 @@
+{
+    "input": [
+        "<nodeModules>/@types/connect/index.d.ts"
+    ],
+    "ignoreInput": [
+    ],
+    "output": "src/jsMain/generated",
+    "ignoreOutput": [
+        "**/Application.kt",
+        "**/createserver.kt",
+        "**/HandleFunction.kt",
+        "**/IncomingMessage.kt"
+    ],
+    "libraryName": "connect",
+    "libraryNameOutputPrefix": true,
+    "granularity": "top-level",
+    "moduleNameMapper": {
+    },
+    "packageNameMapper": {
+        "createServer": "createserver"
+    },
+    "importInjector": {
+        "ErrorHandleFunction.kt": [
+            "node.http.IncomingMessage"
+        ],
+        "SimpleHandleFunction.kt": [
+            "node.http.IncomingMessage"
+        ],
+        "NextHandleFunction.kt": [
+            "node.http.IncomingMessage"
+        ]
+    },
+    "namespaceStrategy": {
+        ".*": "package"
+    }
+}

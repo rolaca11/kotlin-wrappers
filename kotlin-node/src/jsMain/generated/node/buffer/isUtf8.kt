@@ -6,7 +6,7 @@ package node.buffer
 
 import js.buffer.ArrayBuffer
 
-external fun isUtf8(input: Buffer): Boolean
+external fun isUtf8(input: node.buffer.Buffer): Boolean
 
 external fun isUtf8(input: ArrayBuffer): Boolean
 

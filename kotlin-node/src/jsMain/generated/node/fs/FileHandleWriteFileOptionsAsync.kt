@@ -2,7 +2,10 @@
 
 package node.fs
 
+import js.promise.Promise
 import node.events.Abortable
 
 
-sealed external interface FileHandleWriteFileAsyncOptions : ObjectEncodingOptions, FlagAndOpenMode, Abortable
+sealed external interface FileHandleWriteFileAsyncOptions : ObjectEncodingOptions, FlagAndOpenMode, Abortable {
+
+}

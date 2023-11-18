@@ -2,5 +2,9 @@
 
 package node.fs
 
+import js.promise.Promise
 
-sealed external interface AppendFileAsyncOptions : ObjectEncodingOptions, FlagAndOpenMode
+
+sealed external interface AppendFileAsyncOptions : ObjectEncodingOptions, FlagAndOpenMode {
+
+}

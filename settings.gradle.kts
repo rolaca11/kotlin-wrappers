@@ -167,4 +167,7 @@ include("kotlin-typescript")
 // Kotlin/JS: Common web wrappers
 include("kotlin-web")
 
+// Kotlin/JS: Express.js wrappers
+include("kotlin-express")
+
 include("kotlin-wrappers-bom")

@@ -2,8 +2,10 @@
 
 package node.dns
 
+import js.promise.Promise
+
 
 sealed external interface LookupServiceResultPayload {
-    var hostname: String
-    var service: String
+var hostname: String
+var service: String
 }
