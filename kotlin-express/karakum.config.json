@@ -1,13 +1,15 @@
 {
     "input": [
-        "<nodeModules>/@types/connect/index.d.ts"
+        "<nodeModules>/@types/connect/index.d.ts",
+        "<nodeModules>/@types/body-parser/index.d.ts"
     ],
     "ignoreInput": [
     ],
     "output": "src/jsMain/generated",
     "ignoreOutput": [
         "**/Application.kt",
-        "**/createserver.kt",
+        "**/createServer.kt",
+        "**/index.kt",
         "**/HandleFunction.kt",
         "**/IncomingMessage.kt"
     ],
@@ -17,7 +19,7 @@
     "moduleNameMapper": {
     },
     "packageNameMapper": {
-        "createServer": "createserver"
+        "createserver": "connect"
     },
     "importInjector": {
         "ErrorHandleFunction.kt": [
@@ -28,6 +30,12 @@
         ],
         "NextHandleFunction.kt": [
             "node.http.IncomingMessage"
+        ],
+        "Options.kt": [
+            "node.buffer.Buffer"
+        ],
+        "BodyParser.kt": [
+            "connect.NextHandleFunction"
         ]
     },
     "namespaceStrategy": {
